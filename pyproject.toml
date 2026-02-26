@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-assert"
+version = "0.1.0"
+description = "Runtime constraint verification for AI outputs. Zero dependencies."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "Kaan Tahti", email = "kaantahti@users.noreply.github.com"},
+]
+keywords = [
+    "ai",
+    "llm",
+    "validation",
+    "constraints",
+    "verification",
+    "retry",
+    "testing",
+    "quality",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/kaantahti/ai-assert"
+Repository = "https://github.com/kaantahti/ai-assert"
+Issues = "https://github.com/kaantahti/ai-assert/issues"
+
+[tool.setuptools]
+py-modules = ["ai_assert"]
